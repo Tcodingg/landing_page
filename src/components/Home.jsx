@@ -20,9 +20,10 @@ export default function Home() {
 							adipisicing elit.Quod unde officia, molestiae suscipit placeat
 							vitae tenetur exercitationem ratione inventore porro.
 						</p>
-						<div>
-							<button>get started</button>
-							<button>learn more</button>
+						<div className='btnContainer'>
+							<a href='#'>get started</a>
+
+							<a href='#'>learn more</a>
 						</div>
 					</div>
 				</div>
