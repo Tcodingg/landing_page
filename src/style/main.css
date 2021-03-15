@@ -1,0 +1,82 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* -------------------Nav-------------------- */
+.nav {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 100%;
+}
+.mainNav {
+	display: flex;
+	flex-direction: row;
+	width: 50%;
+}
+.logo,
+.main {
+	width: 50%;
+	margin: 20px 50px;
+	text-transform: capitalize;
+}
+.main {
+	width: 50%;
+}
+.logo {
+	width: 50%;
+}
+
+.mainNav li {
+	list-style: none;
+	margin-right: 50px;
+}
+.mainNav a {
+	text-decoration: none;
+}
+/* -------------------Home-------------------- */
+
+.homeContainer {
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.ecllipse img {
+	width: 100%;
+}
+
+.homeBusinessMeeting img {
+	width: 100%;
+}
+
+.homeInfo {
+	position: absolute;
+	display: flex;
+	flex-direction: column;
+	top: 190px;
+	width: 30%;
+	margin-left: 50px;
+}
+.homeInfo h1,
+p,
+div {
+	margin-bottom: 20px;
+}
+.homeInfo h1 {
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 50.16px;
+}
+
+.homeInfo p {
+	font-size: 20px;
+	line-height: 27.67px;
+}
